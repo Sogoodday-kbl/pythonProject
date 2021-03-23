@@ -1,0 +1,17 @@
+dogdata: &dog
+  name: "小白"
+  color: "白色"
+  age: "1"
+  sex: "公"
+
+catdata: &cat
+  name: "小黑"
+  color: "黑色"
+  age: "3"
+  sex: "母"
+
+
+#default:
+#  <<: *dog
+
+
