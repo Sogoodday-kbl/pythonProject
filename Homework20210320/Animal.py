@@ -36,11 +36,11 @@ class Animal:
 
     def run(self):
         print ("我在跑")
-        return
+
 
     def barked(self):
         print ("我在叫")
-        return
+
 
 
 class cat(Animal):
@@ -49,7 +49,7 @@ class cat(Animal):
 
     def CatchMouse(self):
         print ("捉到了老鼠")
-        return
+
 
     def barked(self):
         print("喵喵叫")
@@ -61,10 +61,11 @@ class dog(Animal):
 
     def HouseKeeping(self):
         print("狗看家")
-        return
+
 
     def barked(self):
         print("汪汪叫")
+
 
 
 if __name__ == '__main__':

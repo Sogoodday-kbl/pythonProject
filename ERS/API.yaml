@@ -1,0 +1,35 @@
+ERSQA:  &Scene1
+  InterfaceName: '同步泛优小库网点'
+  url: 'https://busapiqa.1renshi.com/AutoService/ServiceBranchsSync'
+  assert: 'ceshi yixi '
+
+ERSQA1: &Paramethy1
+  InterfaceName: '同步小库所需资料'
+  url: 'https://busapiqa.1renshi.com/AutoService/EssencialsSync'
+
+ERSQA2:  &Paramethy2
+  InterfaceName: '获取用户名称列表'
+  url: 'https://busapiqa.1renshi.com/Common/User/CompanyNameList?page=1&limit=10'
+
+ERSQA3:  &Paramethy3
+  InterfaceName: '同步泛优小库网点'
+  url: 'https://busapiqa.1renshi.com/Common/Notice/PolicyExpress'
+  noticeID: "string"
+  noticeName: "string"
+  policyType: "string"
+  city: "string"
+  costCenterId: "string"
+  costCenterName: "string"
+  noticeContent: "string"
+  effectTime: "2021-03-25T06:57:21.379Z"
+  announceTime: "2021-03-25T06:57:21.379Z"
+  isDelete: 0
+  policyPath: "string"
+  attachmentPath: 'string'
+
+Login1:
+  url: "https://userqa.1renshi.com/Account/LoginByPasswordWithCompanyName"
+  Mobile: "17521170226"
+  Pwd: "123456"
+  companyname: "今天你完善信息了吗"
+  assert: '成功'
